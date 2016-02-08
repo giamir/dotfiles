@@ -1,0 +1,1 @@
+/Users/giamirbuoncristiani/dotfiles/zsh/configs/history.zsh
