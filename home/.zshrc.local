@@ -90,6 +90,7 @@ bindkey -v
 # Custom stuff
 source ~/.aliases
 
+# Show minimal prompt
 prompt_context() {}
 
 # Add RVM to PATH for scripting
