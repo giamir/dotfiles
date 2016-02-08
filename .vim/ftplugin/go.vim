@@ -1,0 +1,1 @@
+/Users/giamirbuoncristiani/dotfiles/vim/ftplugin/go.vim
