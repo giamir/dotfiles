@@ -28,7 +28,8 @@ All the dotfiles from within this castle will be symlinked.
 
 ## Thanks
 
-Much of my configuration is inspired by [Thoughtbot's dotfiles](https://github.com/thoughtbot/dotfiles).
+Much of my configuration is inspired by [Thoughtbot's dotfiles](https://github.com/thoughtbot/dotfiles).<br>
+In particular many thanks to [Chris Toomey](https://github.com/christoomey/dotfiles)
 
 It is designed to work with [homesick](https://github.com/technicalpickles/homesick) which handles all my symlinking for me automatically.<br>
 Thanks to Joshua Nichols for this awesome gem.

@@ -1,1 +1,0 @@
-/Users/giamirbuoncristiani/dotfiles/zsh/configs/color.zsh

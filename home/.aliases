@@ -1,0 +1,14 @@
+# Convenience aliases
+alias ls="ls -FG"
+alias l="ls -l"
+alias la="ls -la"
+
+alias ez='vim ~/.zshrc'
+alias sz='source ~/.zshrc'
+
+alias pgrep='pgrep -lf' # long output, match against full args list
+
+# Postgres
+alias restart-postgres="rm /usr/local/var/postgres/postmaster.pid && cd ~/Library/LaunchAgents && launchctl unload homebrew.mxcl.postgresql.plist && launchctl load -w homebrew.mxcl.postgresql.plist"
+
+alias spaces="cut -d ' ' -f"
