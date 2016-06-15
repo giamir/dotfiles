@@ -1,3 +1,6 @@
+# Init jenv
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
 # use vim as the visual editor
 export VISUAL='vim'
 export EDITOR=$VISUAL
@@ -7,11 +10,11 @@ export ZSH=$HOME/.oh-my-zsh
 export ZDOTDIR=$HOME
 
 # user configuration
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
+
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
 
@@ -118,3 +121,14 @@ export PIP_REQUIRE_VIRTUALENV=true
 gpip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
+
+# Homebrew PHP CLI
+export PATH=$PATH:$(brew --prefix homebrew/php/php56)/bin
+# Composer PHP manager path
+export PATH=$PATH:$HOME/.composer/vendor/bin
+
+# Prefer locally installed node modules rather than the one globally installed
+export PATH=$(npm bin):$PATH
+
+# Go environment
+export GOPATH=/Users/giamirbuoncristiani/go_workspace
