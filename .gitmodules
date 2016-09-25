@@ -1,0 +1,60 @@
+[submodule "home/.vim/bundle/ctrlp.vim"]
+	path = home/.vim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "home/.vim/bundle/nerdtree"]
+	path = home/.vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "home/.vim/bundle/nerdtree-git-plugin"]
+	path = home/.vim/bundle/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+[submodule "home/.vim/bundle/syntastic"]
+	path = home/.vim/bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule "home/.vim/bundle/tcomment"]
+	path = home/.vim/bundle/tcomment
+	url = git@github.com:tomtom/tcomment_vim.git
+[submodule "home/.vim/bundle/vim-airline"]
+	path = home/.vim/bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "home/.vim/bundle/vim-airline-themes"]
+	path = home/.vim/bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "home/.vim/bundle/vim-bundler"]
+	path = home/.vim/bundle/vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
+[submodule "home/.vim/bundle/vim-coffee-script"]
+	path = home/.vim/bundle/vim-coffee-script
+	url = git@github.com:kchmck/vim-coffee-script.git
+[submodule "home/.vim/bundle/vim-colors-solarized"]
+	path = home/.vim/bundle/vim-colors-solarized
+	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule "home/.vim/bundle/vim-endwise"]
+	path = home/.vim/bundle/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
+[submodule "home/.vim/bundle/vim-eunuch"]
+	path = home/.vim/bundle/vim-eunuch
+	url = git@github.com:tpope/vim-eunuch.git
+[submodule "home/.vim/bundle/vim-fugitive"]
+	path = home/.vim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "home/.vim/bundle/vim-mkdir"]
+	path = home/.vim/bundle/vim-mkdir
+	url = git@github.com:pbrisbin/vim-mkdir.git
+[submodule "home/.vim/bundle/vim-rails"]
+	path = home/.vim/bundle/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule "home/.vim/bundle/vim-rspec"]
+	path = home/.vim/bundle/vim-rspec
+	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule "home/.vim/bundle/vim-rake"]
+	path = home/.vim/bundle/vim-rake
+	url = git@github.com:tpope/vim-rake.git
+[submodule "home/.vim/bundle/vim-ruby"]
+	path = home/.vim/bundle/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+[submodule "home/.vim/bundle/vim-slim"]
+	path = home/.vim/bundle/vim-slim
+	url = git@github.com:slim-template/vim-slim.git
+[submodule "home/.vim/bundle/vim-surround"]
+	path = home/.vim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
