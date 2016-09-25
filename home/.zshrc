@@ -140,5 +140,8 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 # PostgresApp
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
+# Z config (for navigating the terminal faster)
+. `brew --prefix`/etc/profile.d/z.sh
+
 #Remote Debugging
 # export JAVA_OPTS="-Xms512M -Xmx1024M -XX:MaxPermSize=256m -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -noverify"
