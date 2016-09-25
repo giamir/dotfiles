@@ -42,6 +42,7 @@
   rpo = remote prune origin
   sal = !git sla # Accepting that I will continue to mistype this
   sdot = status . --short --branch
+  st = status
   si = status --ignored
   sl = log --oneline --decorate --graph -20
   slap = log --oneline --decorate --all --graph
@@ -59,7 +60,7 @@
 	pager = less -F -X
 [user]
   name = Giamir Buoncristiani
-  email = giamir.buoncristiani@gmail.com
+  email = giamir@thoughtworks.com
 [push]
   default = upstream
 [merge]

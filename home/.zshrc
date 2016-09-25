@@ -59,6 +59,7 @@ ZSH_THEME="agnoster"
 plugins=(zsh-syntax-highlighting vagrant heroku brew gem gitfast)
 
 source $ZSH/oh-my-zsh.sh
+source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -132,3 +133,12 @@ export PATH=$(npm bin):$PATH
 
 # Go environment
 export GOPATH=/Users/giamirbuoncristiani/go_workspace
+
+# Java environment
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+
+# PostgresApp
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+#Remote Debugging
+# export JAVA_OPTS="-Xms512M -Xmx1024M -XX:MaxPermSize=256m -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 -noverify"
